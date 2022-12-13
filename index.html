@@ -25,6 +25,12 @@
 
 </head>
 <body>
+
+    <div id="preloder">
+
+    </div>
+
+
     <!-----------------------------Navigation BAr-------------------------------->
 
     <header>
@@ -175,7 +181,15 @@
     </form>
 </section>
 
+<!----------------------------Pre Loder---------------------------->
+<script>
+
+var loader =document.getElementById("preloader");
+window.addEventListner("load", function(){
+    loader.style.display = "none";
+})
 
 
+</script>
 </body>
 </html>
