@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+/*------------------------------------------------------HEADER CSS---------------------------------*/
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 150px;
+    background-color: #0f0c27;
+    color: white;
+    border-bottom: solid 0.2px grey;
+    position: fixed;
+}
+
+.navbar {
+    display: flex;
+    margin-left: 10px;
+    justify-content: space-between;
+    width: 30%;
+    list-style: none;
+    padding-top: 10px;
+    
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 1.8rem;
+    margin-left: 25px;
+    font-weight: 600;
+}
+
+ul a {
+    font-size: 1rem;
+}
+/*-------------------------------------------------------------HOME CSS---------------------------*/
+.home{
+       background-color: #0f0c27;
+       display: flex;
+       justify-content: space-evenly;
+}
+.social{
+    height:100px;
+
+}
+section{
+    padding:150px 10%;
+
+}
+.social a i{
+    font-size:2rem;
+    color:whitesmoke;
+    margin-top:2.2rem;
+    
+
+}
+.social{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    margin-top:80px;
+    
+}
+.home-text{
+    font-size: 1.5rem;
+    display:flex;
+    color:aliceblue;
+    margin-top:80px;
+    
+}
+.contact-me{
+    color:white;
+    text-decoration: none;
+    background-color: #033a80;
+    padding: 12px 15px;
+    border-radius: 20px;
+    margin-top:20px;
+
+}
+.home-img img{
+   
+    border-radius: 20px;
+}
+.heading-name{
+    font-size: 2.5rem;
+}
+.para-home{
+    margin:20px 0px;
+    font-size:1.2rem;
+} 
+
+/*----------------------------------------------------------------------ABOUT ME SECTION-----------------------*/
+.aboutme{
+    text-align: center;
+    background-color: #0f0c27;
+    color: aliceblue;
+    
+    
+}
+.aboutme-section{
+    display:flex;
+    margin-top:50px;
+    text-align: left;
+}
+.my-img2{
+    border-radius: 20px;
+    margin-left: 20px;
+}
+.aboutme-text{
+    width:70%;
+    margin-left:10%;
+    margin-right: 0%;
+    letter-spacing: px;
+}
+.icons-div{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom:30px;
+}
+.Downlode-Resume{
+    color:white;
+    text-decoration: none;
+    background-color: #033a80;
+    padding: 12px 15px;
+    border-radius: 20px;
+
+}
+.aboutme-heading{
+    font-size:2.5rem;
+}
+.intro-heading{
+   font-size:1.2rem;
+}
+/*-------------------------------------------------SKILLS-------------------------------*/
+
+.skills {
+    text-align: center;
+    background-color: #0f0c27;
+    color: white;
+    padding: 10%;
+}
+
+.bars-box {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+    /* width: 100%; */
+}
+
+.skills-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.light-bar {
+    width: 100%;
+    background: hsla(309, 93%, 30%, 0.4);
+    height: 0.5rem;
+    position: absolute;
+    top: 10;
+    bottom: 0;
+}
+
+.skill-bar {
+    width: 40%;
+}
+
+.percent-bar {
+    position: absolute;
+    top: 10;
+    bottom: 0;
+    background-color: #370ab3;
+    height: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.html-bar {
+    width: 94%;
+}
+
+.css-bar {
+    width: 90%;
+}
+
+.js-bar {
+    width: 70%;
+}
+
+.react-bar {
+    width: 70%;
+}
+.Basicdsa-bar {
+    width: 60%;
+}
+
+.skill-heading {
+    font-size: 2.5rem;
+}
+/*---------------------------------------------------Project section css--------------------*/
+.projects{
+    background-color: #0f0c27;
+    color: white;
+    text-align: center;
+}
+.project-heading{
+    font-size:2.5rem;
+    margin-bottom: 50px;
+
+}
+
+
+.projects img{
+    border-radius: 20px;
+    margin:5px;
+
+}
+
+/*-----------------------------------------------CONTACT FORM CSS---------------------------------*/
+.contact-form{
+    background-color: #0f0c27;
+    color: white;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.form input, textarea {
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #150b3a;
+    text-decoration: none;
+    border: 0;
+    
+}
+
+.form input, textarea {
+    padding: 10px;
+    color: white;
+}
+
+.contact-me-heading {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+.submit {
+    margin-top: 40px;
+    width: 25%;
+    background-color: #033a80;
+    color: white;
+    padding: 10px 15px;
+    margin: 0px auto;
+    cursor: pointer;
+    border-radius: 2rem;
+}
