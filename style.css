@@ -6,6 +6,18 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+
+#preloder{
+    background: rgb(255, 255, 255) url(favicon/preloaderG.gif) no-repeat center;
+    background-size: 18%;
+    height:100%;
+    width:100%;
+    position:fixed;
+    z-index:100000;
+}
+
+
+
 /*------------------------------------------------------HEADER CSS---------------------------------*/
 header {
     width: 100%;
@@ -271,12 +283,4 @@ section{
     margin: 0px auto;
     cursor: pointer;
     border-radius: 2rem;
-}
-#preloder{
-    background: #0000 url(favicon/preloader.gif) no-repeat center;
-    background-size: 10%;
-    height:100%;
-    width:100%;
-    position:fixed;
-    z-index:100;
 }

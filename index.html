@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kshitij Shrivastava</title>
     <link rel="stylesheet" href="style.css">
+    
 
 
 <!------------------------------------Link for boxicon to add icon--------------------->
@@ -24,7 +25,7 @@
 
 
 </head>
-<body>
+<body onload="myFunction()">
 
     <div id="preloder">
 
@@ -183,13 +184,13 @@
 
 <!----------------------------Pre Loder---------------------------->
 <script>
-
-var loader =document.getElementById("preloader");
-window.addEventListner("load", function(){
-    loader.style.display = "none";
-})
+    var preloader = document.getElementById('preloder');
+    function myFunction(){
+        preloader.style.display = 'none';
+    }
 
 
 </script>
+
 </body>
 </html>
