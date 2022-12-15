@@ -43,8 +43,10 @@
             <li><a href="">Skills</a></li>
             <li><a href="https://github.com/hshrivastava123">Projects</a></li>
             <li><a href="https://wa.me/+919172429894">Contact Me</a></li>
-           <li><div class="bx bx-moon"><box-icon name='moon' type='solid' ></box-icon></div><li>
-            <li><div class="bx bxs-sun"><box-icon name='sun' type='solid' ></box-icon></div><li> 
+           <li><img src="moon icon.png" id="icon"><li>
+            
+
+           
         </ul>
     </header>
     
@@ -189,6 +191,16 @@
         preloader.style.display = 'none';
     }
 
+    
+   var icon = document.getElementById("icon");
+   icon.onclick = function(){
+    document.body.classList.toggle("dark-them")
+    if(document.body.classList.contains("dark-them")){
+        icon.src = "sun icon1.jpg";
+    }else{
+        icon.src="moon icon1.png";
+    }
+   }
 
 </script>
 

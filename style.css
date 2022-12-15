@@ -7,6 +7,14 @@
     font-family: "Poppins", sans-serif;
 }
 
+:root{
+    --primary-color:#000106;
+    --secondary-color:#ffff;
+}
+.dark-them{
+    --primary-color:#edf2fc;
+    --secondary-color:#0f0c27;
+}
 /*------------------------------------------------------pre loader css---------------------------------*/
 #preloder{
     background: rgb(255, 255, 255) url(favicon/preloaderG.gif) no-repeat center;
@@ -16,7 +24,11 @@
     position:fixed;
     z-index:100000;
 }
-
+#icon{
+    width:22px;
+    cursor:pointer;
+    color:grey;
+}
 
 
 /*------------------------------------------------------HEADER CSS---------------------------------*/
@@ -25,8 +37,8 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 13px 150px;
-    background-color: #0f0c27;
-    color: white;
+    background-color:var(--secondary-color);
+    color: var(--primary-color);
     border-bottom: solid 0.2px grey;
     position: fixed;
 }
@@ -42,7 +54,7 @@ header {
 }
 
 header a {
-    color: white;
+    color:var(--primary-color);
     text-decoration: none;
 }
 
@@ -57,7 +69,7 @@ ul a {
 }
 /*-------------------------------------------------------------HOME CSS---------------------------*/
 .home{
-       background-color: #0f0c27;
+       background-color:var(--secondary-color);
        display: flex;
        justify-content: space-evenly;
 }
@@ -71,7 +83,7 @@ section{
 }
 .social a i{
     font-size:2rem;
-    color:whitesmoke;
+    color:var(--primary-color);
     margin-top:2.2rem;
     
 
@@ -86,12 +98,12 @@ section{
 .home-text{
     font-size: 1.5rem;
     display:flex;
-    color:aliceblue;
+    color:var(--primary-color);
     margin-top:80px;
     
 }
 .contact-me{
-    color:white;
+    color:var(--primary-color);
     text-decoration: none;
     background-color: #033a80;
     padding: 12px 15px;
@@ -116,8 +128,8 @@ section{
 /*----------------------------------------------------------------------ABOUT ME SECTION-----------------------*/
 .aboutme{
     text-align: center;
-    background-color: #0f0c27;
-    color: aliceblue;
+    background-color:var(--secondary-color);
+    color:var(--primary-color);
     
     
 }
@@ -144,7 +156,7 @@ section{
     margin-bottom:30px;
 }
 .Downlode-Resume{
-    color:white;
+    color:var(--primary-color);
     text-decoration: none;
     background-color: #033a80;
     padding: 12px 15px;
@@ -161,8 +173,8 @@ section{
 
 .skills {
     text-align: center;
-    background-color: #0f0c27;
-    color: white;
+    background-color:var(--secondary-color);
+    color:var(--primary-color);
     padding: 10%;
 }
 
@@ -228,8 +240,8 @@ section{
 }
 /*---------------------------------------------------Project section css--------------------*/
 .projects{
-    background-color: #0f0c27;
-    color: white;
+    background-color:var(--secondary-color);
+    color:var(--primary-color);
     text-align: center;
 }
 .project-heading{
@@ -247,8 +259,8 @@ section{
 
 /*-----------------------------------------------CONTACT FORM CSS---------------------------------*/
 .contact-form{
-    background-color: #0f0c27;
-    color: white;
+    background-color:var(--secondary-color);
+    color:var(--primary-color);
 }
 .form {
     display: flex;
@@ -268,7 +280,7 @@ section{
 
 .form input, textarea {
     padding: 10px;
-    color: white;
+    color:var(--primary-color);
 }
 
 .contact-me-heading {
@@ -281,15 +293,9 @@ section{
     margin-top: 40px;
     width: 25%;
     background-color: #033a80;
-    color: white;
+    color:var(--primary-color);
     padding: 10px 15px;
     margin: 0px auto;
     cursor: pointer;
     border-radius: 2rem;
-}
-@media  screen and (max-width: 600px)
-{
-    aboutme-heading{
-        font-size:1rem;
-    }
 }
