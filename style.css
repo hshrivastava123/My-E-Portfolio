@@ -9,11 +9,11 @@
 
 :root{
     --primary-color:#000106;
-    --secondary-color:#ffff;
+    --secondary-color:rgb(247, 224, 209);
 }
 .dark-them{
-    --primary-color:#edf2fc;
-    --secondary-color:#0f0c27;
+    --primary-color:#ffffff;
+    --secondary-color:#15122e;
 }
 /*------------------------------------------------------pre loader css---------------------------------*/
 #preloder{
@@ -25,7 +25,7 @@
     z-index:100000;
 }
 #icon{
-    width:22px;
+    width:20px;
     cursor:pointer;
     color:grey;
 }
@@ -254,6 +254,7 @@ section{
 .projects img{
     border-radius: 20px;
     margin:5px;
+    cursor: pointer;
 
 }
 
